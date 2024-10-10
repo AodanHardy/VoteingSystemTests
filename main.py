@@ -1,9 +1,9 @@
 from rankedChoiceVote import RankedChoiceVoteProcessor
-from sampleVoteData import rc_candidates6, rc_votes500_6
+from sampleVoteData import rc_votes1000_7, rc_candidates7
+from bigSampleVoteData import votes30000, candidates9
 
 
 
-
-processor = RankedChoiceVoteProcessor(rc_votes500_6, rc_candidates6, 3)
+processor = RankedChoiceVoteProcessor(votes30000, candidates9, 3)
 
 print(processor.finalize_results())

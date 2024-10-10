@@ -28,7 +28,7 @@ def generateRankedChoiceVotes(numVotes, candidate_names):
     return finalCandidates, formatted_votes
 
 
-candidates, voteData = generateRankedChoiceVotes(500, ['Amy', 'Luke', 'John', 'Paul', 'Ellie', 'Anna'])
+candidates, voteData = generateRankedChoiceVotes(30000, ['Amy', 'Luke', 'John', 'Paul', 'Ellie', 'Anna', 'Jim', "Phil", "Dave"])
 
 print(candidates)
 print(voteData)
